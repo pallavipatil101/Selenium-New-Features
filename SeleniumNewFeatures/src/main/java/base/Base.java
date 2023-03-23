@@ -6,7 +6,6 @@ import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
@@ -15,6 +14,7 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class Base {
 
+	
 	public static WebDriver driver;
 	@BeforeClass
 	public void setUp() {
@@ -39,8 +39,4 @@ public class Base {
 		js.executeScript("arguments[0].scrollIntoView();", element);
 	}
 	
-	@Test(priority = 0)
-	public void launchWebsite() {
-		driver.get("https://www.amazon.in");
-	}
 }
