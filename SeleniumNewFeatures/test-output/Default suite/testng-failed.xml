@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="selenium4.features.RelativeLocators">
+      <class name="selenium4.features.DevToolsNetwrokMocking">
         <methods>
           <include name="tearDown"/>
+          <include name="networkLogs"/>
           <include name="setUp"/>
-          <include name="locateElement"/>
         </methods>
-      </class> <!-- selenium4.features.RelativeLocators -->
+      </class> <!-- selenium4.features.DevToolsNetwrokMocking -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

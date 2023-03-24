@@ -2,24 +2,24 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-03-23T12:16:02 IST" name="Default suite" finished-at="2023-03-23T12:16:14 IST" duration-ms="11531">
+  <suite started-at="2023-03-24T12:39:41 IST" name="Default suite" finished-at="2023-03-24T12:39:43 IST" duration-ms="1896">
     <groups>
     </groups>
-    <test started-at="2023-03-23T12:16:02 IST" name="Default test" finished-at="2023-03-23T12:16:14 IST" duration-ms="11531">
-      <class name="selenium4.features.DevToolsDeviceDemension">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:selenium4.features.DevToolsDeviceDemension@7b36aa0c]" started-at="2023-03-23T12:16:02 IST" name="setUp" finished-at="2023-03-23T12:16:04 IST" duration-ms="2220" status="PASS">
+    <test started-at="2023-03-24T12:39:41 IST" name="Default test" finished-at="2023-03-24T12:39:43 IST" duration-ms="1896">
+      <class name="selenium4.features.DevToolsNetwrokMocking">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:selenium4.features.DevToolsNetwrokMocking@18df8434]" started-at="2023-03-24T12:39:41 IST" name="setUp" finished-at="2023-03-24T12:39:43 IST" duration-ms="1408" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="amazon()[pri:1, instance:selenium4.features.DevToolsDeviceDemension@7b36aa0c]" started-at="2023-03-23T12:16:04 IST" name="amazon" finished-at="2023-03-23T12:16:14 IST" duration-ms="9240" status="PASS">
+        <test-method signature="networkLogs()[pri:0, instance:selenium4.features.DevToolsNetwrokMocking@18df8434]" started-at="2023-03-24T12:39:43 IST" name="networkLogs" finished-at="2023-03-24T12:39:43 IST" duration-ms="449" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- amazon -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:selenium4.features.DevToolsDeviceDemension@7b36aa0c]" started-at="2023-03-23T12:16:14 IST" name="tearDown" finished-at="2023-03-23T12:16:14 IST" duration-ms="1" status="PASS">
+        </test-method> <!-- networkLogs -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:selenium4.features.DevToolsNetwrokMocking@18df8434]" started-at="2023-03-24T12:39:43 IST" name="tearDown" finished-at="2023-03-24T12:39:43 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- selenium4.features.DevToolsDeviceDemension -->
+      </class> <!-- selenium4.features.DevToolsNetwrokMocking -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

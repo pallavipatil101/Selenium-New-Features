@@ -31,7 +31,7 @@ public class Base {
 	
 	@AfterClass
 	public void tearDown() {
-		driver.quit();	
+		//driver.quit();	
 	}
 
 	public void scrollToElement(WebElement element) {
